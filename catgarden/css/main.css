@@ -12,8 +12,6 @@ a{text-decoration:none;color:inherit;}
 }
 
 #start_video .scroll_down {
-    width: 200px;
-    height: 200px;
     position:absolute;
     left:50%;
     transform: translateX(-50%);
@@ -22,14 +20,17 @@ a{text-decoration:none;color:inherit;}
 }
 
 #start_video .scroll_down .logo {
-    margin-bottom: -24px;
+  
+    margin-bottom: 0px;
     color: #ffffff;
 }
 #start_video .scroll_down .logo img{
-    width:100px;
+    width:252px;
+    height: 176px;
+    color: rgba(0, 0, 0, 0.8);
 }
 #start_video .scroll_down  p {
-    font-size: 48px;
+    font-size: 20px;
     text-align: center;
     color: #ffffff;
 }
