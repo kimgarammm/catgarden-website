@@ -36,6 +36,8 @@ a{text-decoration:none;color:inherit;}
     text-align: center;
     color: #ffffff;
     border:0.1px solid; padding:1px; border-radius: 15px;
+    width: 150px;
+    margin-left: 50px;
      
 }
 
@@ -64,10 +66,12 @@ a{text-decoration:none;color:inherit;}
 }
 #header .gnb ul {
     display:flex;
+    
 }
  #header .gnb li{
      text-align: center;
-     margin-right:50px;
+     margin-right:100px;
+     padding: 80px;
  }
 #header .gnb li:last-child{
     margin-right: 0;
@@ -87,9 +91,34 @@ a{text-decoration:none;color:inherit;}
 #main_section .title{
     position: absolute;
     left: 0;
-    top:400px;
+    top:350px;
     z-index: 1;
+    color: #ffffff;
 }
+
+
+#lost_cat {border-radius: 15px;}
+
+#slider2 {float: right;}
+
+#lost_cat .container1 p{text-align: center;}
+#lost_cat .container2 p{text-align: center;}
+#lost_cat .container3 p{text-align: center;}
+#lost_cat .container4 p{text-align: center;}
+
+#lost_cat .container1 img {border-radius: 30px;}
+#lost_cat .container2 img {border-radius: 30px;}
+#lost_cat .container3 img {border-radius: 30px;}
+#lost_cat .container4 img {border-radius: 30px;}
+
+#lost_cat .short_cut p{ font-size: 15px;
+    text-align: center;
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.65);
+    border:0.1px solid; padding:0.1px; border-radius: 20px;
+    margin-left: 10px;}
+
+
 
 
 
