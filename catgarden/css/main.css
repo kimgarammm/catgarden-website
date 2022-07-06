@@ -3,6 +3,7 @@
     padding: 0;
     border: 0;
     box-sizing: border-box;
+    font-family: 'Noto Sans KR';
 }
 
 ol, ul {
@@ -99,7 +100,7 @@ a {
 #header .gnb li {
     text-align: center;
     margin-right: 100px;
-    padding: 80px;
+    padding: 50px;
 }
 
 #header .gnb li:last-child {
@@ -118,21 +119,26 @@ a {
 }
 
 #main_section .title {
+    margin-left: 50px;
     position: absolute;
     left: 0;
-    top: 350px;
+    top: 240px;
     z-index: 1;
     color: #ffffff;
 }
 
+#main_section .title h1{font-size: 50px;}
+#main_section .title h2{font-size:30px;}
 
-#lost_cat {
-    border-radius: 15px;
-}
+
+#lost_cat p {margin-left: 10px;
+             font-size: 20px;}
 
 #lost_cat .lost_cat_slider_container{
     width:100%;
     overflow:hidden;
+   
+    
 }
 
 
@@ -158,23 +164,31 @@ a {
 
 #slider2 #slider2 img {
     width:200px;
-    border-radius: 30px;
+    border-radius: 50px;   
+    box-shadow: 5px 5px 5px #000;
 }
 #slider2 #slider2 .slide_box{
     width:500px
 }
 
+#lost_cat #slider2 .info {
+    margin-left: 120px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    }
 
 
 #lost_cat #slider2 .short_cut p {
-    font-size: 15px;
     text-align: center;
+    font-size: 15px;
     color: #ffffff;
     background-color: rgba(0, 0, 0, 0.65);
     border: 1px solid;
     padding: 0.1px;
     border-radius: 20px;
-    margin-left: 10px;
+    width: 100px;
+    margin-left: 180px;
+ 
 }
 
 
