@@ -77,10 +77,17 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-weight:900;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    left: 0;
+    background: #fff;
+    z-index: 100
 }
 
 #header .logo {
-    margin-left: 50px;
+    margin-left: 150px;
 
 }
 
@@ -98,6 +105,7 @@ a {
 }
 
 #header .gnb li {
+    font-size: 20px;
     text-align: center;
     margin-right: 100px;
     padding: 50px;
@@ -122,77 +130,178 @@ a {
     margin-left: 50px;
     position: absolute;
     left: 0;
-    top: 240px;
+    top: 60px;
     z-index: 1;
     color: #ffffff;
 }
 
-#main_section .title h1{font-size: 50px;}
-#main_section .title h2{font-size:30px;}
+#main_section .title h1 {
+    font-size: 50px;
+}
 
-
-#lost_cat p {margin-left: 10px;
-             font-size: 20px;}
-
-#lost_cat .lost_cat_slider_container{
-    width:100%;
-    overflow:hidden;
-   
-    
+#main_section .title h2 {
+    font-size: 30px;
 }
 
 
-#lost_cat #slider2{
-    width:2300px;
+#lost_cat .title {
+    margin-left: 280px;
+    font-size: 30px;
+    font-weight: bold;
+
 }
 
-#lost_cat #slider2 .container1 p {
-    text-align: center;
+#lost_cat .lost_cat_slider_container {
+    width: 100%;
+    overflow: hidden;
+
+
 }
 
-#lost_cat #slider2 .container2 p {
-    text-align: center;
+
+#lost_cat #slider2 {
+    width: 2300px;
 }
 
-#lost_cat #slider2 .container3 p {
-    text-align: center;
+
+
+
+
+#lost_cat #slider2 .slide_box {
+    position:relative;
+}
+#lost_cat #slider2 img {
+    width: 473px;
+    height: 592px;
+    border-radius: 50px;
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.65);
+}
+#lost_cat #slider2 .short_cut{
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform:translate(-300px,150px);
+    cursor:pointer;
 }
 
-#lost_cat #slider2 .container4 p {
-    text-align: center;
-}
 
-#slider2 #slider2 img {
-    width:200px;
-    border-radius: 50px;   
-    box-shadow: 5px 5px 5px #000;
-}
-#slider2 #slider2 .slide_box{
-    width:500px
-}
+
 
 #lost_cat #slider2 .info {
+    font-weight: bold;
+    font-size: 25px;
     margin-left: 120px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    }
+    margin-top: 25px;
+    margin-bottom: 90px;
+    line-height: 25px;
+}
 
 
 #lost_cat #slider2 .short_cut p {
+    font-weight: 900;
     text-align: center;
-    font-size: 15px;
+    font-size: 18px;
     color: #ffffff;
-    background-color: rgba(0, 0, 0, 0.65);
-    border: 1px solid;
-    padding: 0.1px;
+    background-color: rgba(0, 0, 0, 0.4);
+   /* border: 1px solid;*/
+    padding: 1px;
     border-radius: 20px;
     width: 100px;
     margin-left: 180px;
- 
+
 }
 
+#cat_garden_news .title2 {
+    margin-left: 280px;
+    font-size: 30px;
+    font-weight: bold;}
+
+#cat_garden_news .news_container .box1
+{margin-left: 280px;}
+#cat_garden_news .news_container .box2
+{float: left;
+margin-left: 280px;}
+#cat_garden_news .news_container .box3
+{float: left;
+margin-left: 60px;
+margin-right: 60px;}
+#cat_garden_news .news_container .box4
+{}
+
+#cat_garden_news .box1 .card_title
+{font-size: 30px;
+font-weight: 900;
+position: inherit;
+z-index: 1;
+}
+#cat_garden_news .box1 .time{
+    font-size: 30px;
+    font-weight: 900;
+    position: inherit;
+    z-index: 1;
+}
+#cat_garden_news .box2 .card_title
+{font-size: 30px;
+    font-weight: 900;
+    position: inherit;
+    z-index: 1;}
+#cat_garden_news .box3 .card_title
+{font-size: 30px;
+font-weight: 900;
+position: inherit;
+z-index: 1;}
+#cat_garden_news .box4 .card_title
+{font-size: 30px;
+    font-weight: 900;
+    position: inherit;
+    z-index: 1;}
 
 
+
+
+
+#cat_garden_news #slider3 .box2 .short_cut p
+{   font-weight: 900;
+    text-align: center;
+    font-size: 18px;
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 1px;
+    border-radius: 20px;
+    width: 100px;
+    margin-left: 50px;
+}
+
+#cat_garden_news #slider3 .box3 .short_cut p
+{   font-weight: 900;
+    text-align: center;
+    font-size: 18px;
+    color: #ffffff;
+    background-color: rgba(207, 189, 177, 0.4);
+    padding: 1px;
+    border-radius: 20px;
+    width: 100px;
+    margin-left: 50px;
+}
+/*#cat_garden_news #slider3 .box4 .short_cut p
+{   font-weight: 900;
+    text-align: center;
+    font-size: 18px;
+    color: #ffffff;
+    background-color: rgba(222, 39, 202, 0.4);
+    padding: 1px;
+    border-radius: 20px;
+    width: 100px;
+    margin-left: 180px;
+}*/
+
+
+#shop .title1{margin-left: 280px;
+    font-size: 30px;
+    font-weight: bold;}
+#shop .title2{margin-left: 280px;
+    font-size: 30px;
+    font-weight: bold;}
 
 
        
